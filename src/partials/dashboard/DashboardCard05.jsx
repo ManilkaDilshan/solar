@@ -16,7 +16,7 @@ function DashboardCard05() {
   const [counter, setCounter] = useState(0);
   const [increment, setIncrement] = useState(0);
   const [range, setRange] = useState(35);
-  
+
   // Dummy data to be looped
   const data = [
     57.81, 57.75, 55.48, 54.28, 53.14, 52.25, 51.04, 52.49, 55.49, 56.87,
@@ -79,7 +79,7 @@ function DashboardCard05() {
           pointBackgroundColor: tailwindConfig().theme.colors.indigo[500],
           pointHoverBackgroundColor: tailwindConfig().theme.colors.indigo[500],
           pointBorderWidth: 0,
-          pointHoverBorderWidth: 0,          
+          pointHoverBorderWidth: 0,
           clip: 20,
       },
     ],
